@@ -1,4 +1,4 @@
-# OpenCore_X79主板EFI文件
+# X79主板OpenCore_EFI文件
 
 ## 特别感谢
 - **[xiaoleGun](https://github.com/xiaoleGun)**
@@ -17,6 +17,7 @@
 - **当前OpenCore版本为0.9.9**
 - **debug状态：启动参数无硬件加速、有日志输出**
 - `-amd_no_dgpu_accel`禁用硬件加速，`-v`日志输出（跑码）
+- **IvyBridge-EP平台不支持AVX2.0，但Apple在Ventura以及往上版本删除了对没有AVX2.0指令集芯片的支持，所以启动参数`-crypt_force_avx`以及NoAVXFSCompressionTypeZlib-AVXpel已默认启用**
 - **对应机型：MacPro2019（标识：MacPro7,1，对应board-id：Mac-27AD2F918AE68F61），建议就用这个不要改就行了，使用iMacPro1,1会出现PS2键盘无效的问题，USB键盘请忽略**
 - **当前已知最低版本为macOS11.6，最高版本为macOS14.3.1，其他更低或更高版本没测**
 - **硬件详细信息请参考[B站视频](https://www.bilibili.com/video/BV1e1421d7wa/)中的简介**
