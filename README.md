@@ -1,5 +1,3 @@
-![image](https://github.com/2970894475/OpenCore_HUANANZHI-X79-Q67_2690V2_RX570/assets/61039538/2cc2f4c1-cc62-40b3-8529-0a907ea77da6)# X79主板OpenCore_EFI文件
-
 ## 特别感谢
 - **[xiaoleGun](https://github.com/xiaoleGun)**
 - **[峨眉山市雅铭网络工作室](https://github.com/wy414012)**
