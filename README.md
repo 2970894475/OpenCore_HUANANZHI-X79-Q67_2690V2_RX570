@@ -1,4 +1,4 @@
-# X79主板OpenCore_EFI文件
+![image](https://github.com/2970894475/OpenCore_HUANANZHI-X79-Q67_2690V2_RX570/assets/61039538/2cc2f4c1-cc62-40b3-8529-0a907ea77da6)# X79主板OpenCore_EFI文件
 
 ## 特别感谢
 - **[xiaoleGun](https://github.com/xiaoleGun)**
@@ -23,6 +23,8 @@
 
 ## 注意
 - **本人不是专门折腾黑苹果的，如有错误请谅解并及时告知**
+- **为正常使用iCloud、iMessage、FaceTime，在24.5.5版本的EFI中已添加EN0网卡，使用军刀工具查看电脑EN0网卡：![image](https://github.com/2970894475/OpenCore_HUANANZHI-X79-Q67_2690V2_RX570/assets/61039538/d19b5c61-c087-4da5-b361-123972c45567)
+对应的PCIe地址是![image](https://github.com/2970894475/OpenCore_HUANANZHI-X79-Q67_2690V2_RX570/assets/61039538/4b11616e-d836-4f78-b02a-868ae6d794ca)，使用OCC工具添加并设置好后![image](https://github.com/2970894475/OpenCore_HUANANZHI-X79-Q67_2690V2_RX570/assets/61039538/f2a6b0bb-897c-41d4-a0f6-a73da55764ee)再设置机型平台设置中的ROM![image](https://github.com/2970894475/OpenCore_HUANANZHI-X79-Q67_2690V2_RX570/assets/61039538/e16e5f5e-ea42-410e-9f49-9caebde338f0)点击来自系统，点击Mac，点击生成，保存关闭重启电脑，清除NVRAM，开机后再次登陆Apple ID即可**
 - **「芯片组为H61/Q63/65/67等非原x79核心请注意」：如果系统是macOS12以及往后版本，CPU有10核心及更多的情况下，用此EFI仍然出现多核心内核恐慌问题的话，请关闭几个核心（建议变成8或6核心都行）再参考下面这条。如果只打算用macOS11且并不升级可以忽略**
 - **多核心恐慌参考，我的EFI中的DSDT文件不清楚能不能通用，这是修复恐慌的，所以默认启用；在启用情况下仍然出现恐慌请[点击跳转参考贴尾部的故障排除及解决方案](https://www.hackintosh-forum.de/forum/thread/55510-install-monterey-big-sur-on-any-x79-motherboard-huananzhi-chinese-gigabyte-etc-a/)**
 - **1.显卡免驱问题导致需要关闭硬件加速（macOSVentura及其往上版本，显卡输出黑屏或无信号）、2.变频问题修复参考、3.TSC同步核心驱动来源：[huaNan_x79_e5_2670_v1_c2](https://github.com/wy414012/huaNan_x79_e5_2670_v1_c2)**
